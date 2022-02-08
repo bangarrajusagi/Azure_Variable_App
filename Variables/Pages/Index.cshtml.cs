@@ -17,7 +17,7 @@ namespace Variables.Pages
         {
             get
             {
-                return _configuration.GetConnectionString("Quotes");
+                return _configuration.GetValue<string>("WelcomeString");
             }
         }
 
@@ -25,7 +25,7 @@ namespace Variables.Pages
         {
             get
             {
-                return _configuration.GetValue<string>("KeyId");
+                return _configuration.GetValue<string>("Environment");
             }
         }
 
