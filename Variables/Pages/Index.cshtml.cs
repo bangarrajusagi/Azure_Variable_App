@@ -13,7 +13,7 @@ namespace Variables.Pages
     {
         private readonly ILogger<IndexModel> _logger;
         private readonly IConfiguration _configuration;
-        public string ConnectionString
+        public string WelcomeString
         {
             get
             {
@@ -21,7 +21,7 @@ namespace Variables.Pages
             }
         }
 
-        public string KeyId
+        public string Environment
         {
             get
             {
